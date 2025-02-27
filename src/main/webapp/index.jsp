@@ -10,10 +10,28 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background:  url('https://i.pinimg.com/736x/88/98/8c/88988cd24f3ea6644320b91056e3feef.jpg') no-repeat center center fixed;
+            background:  url('https://images.pexels.com/photos/5726799/pexels-photo-5726799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
             background-size: cover;
             color: #fff;
         }
+        header {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    padding: 20px;
+                    background-color: rgba(255, 255, 255, 0.7); /* Fond blanc avec transparence */
+                    text-align: left;
+                    z-index: 10;
+                    width: 100%;
+                }
+      header h1 {
+                 margin: 0;
+                 font-size: 30px;
+                 color: black; /* couleur du texte en noir */
+                 font-weight: bold;
+             }
+
 
         /* Centrage du contenu */
         .content-wrapper {
@@ -96,6 +114,9 @@
     </style>
 </head>
 <body>
+    <header>
+            <h1>DoctorRV</h1> <!-- Titre du logo -->
+        </header>
     <div class="content-wrapper">
         <div class="container">
             <h2>Bienvenue sur le Système Médical</h2>
