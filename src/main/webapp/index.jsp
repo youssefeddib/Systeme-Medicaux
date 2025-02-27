@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Accueil - Système Médical</title>
     <style>
-        /* Style global pour le corps de la page */
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -32,8 +32,6 @@
                  font-weight: bold;
              }
 
-
-        /* Centrage du contenu */
         .content-wrapper {
             display: flex;
             justify-content: center;
@@ -42,7 +40,6 @@
             background-color: rgba(0, 0, 0, 0.5); /* Ombre légère pour améliorer la lisibilité */
         }
 
-        /* Conteneur principal du contenu */
         .container {
             text-align: center;
             background: rgba(255, 255, 255, 0.8); /* Fond semi-transparent pour le conteneur */
@@ -65,7 +62,6 @@
             color: #555;
         }
 
-        /* Style des boutons */
         .btn {
             display: inline-block;
             width: 200px;
@@ -100,7 +96,6 @@
             transform: scale(1.05);
         }
 
-        /* Réactivité sur les petites tailles d'écran */
         @media screen and (max-width: 600px) {
             h2 {
                 font-size: 28px;
@@ -115,7 +110,7 @@
 </head>
 <body>
     <header>
-            <h1>DoctorRV</h1> <!-- Titre du logo -->
+            <h1>DoctorRV</h1>
         </header>
     <div class="content-wrapper">
         <div class="container">
