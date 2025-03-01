@@ -107,7 +107,7 @@
     <div class="content-wrapper">
         <div class="container">
             <h2>S'inscrire</h2>
-            <form action="registerAction.jsp" method="POST">
+            <form action="Conexion.jsp" method="POST">
                 <input type="text" name="username" placeholder="Nom d'utilisateur" required><br>
                 <input type="email" name="email" placeholder="Adresse email" required><br>
                 <input type="tel" name="phone" placeholder="Numéro de téléphone" required pattern="^\+?\d{1,4}?[\d\s\-()]*$" title="Numéro de téléphone valide"><br>

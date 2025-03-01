@@ -1,17 +1,19 @@
 package Model;
 
+import java.sql.Date;
 import java.sql.Time;
-import java.util.Date;
 
-public class RendezVousModel {
+public class RendezvousModel {
     private int id;
+    private int patientId;
     private Date date;
     private Time heure;
     private String motif;
     private String statut;
 
-    public RendezVousModel(int id, Date date, Time heure, String motif, String statut) {
+    public RendezvousModel(int id, int patientId, Date date, Time heure, String motif, String statut) {
         this.id = id;
+        this.patientId = patientId;
         this.date = date;
         this.heure = heure;
         this.motif = motif;
@@ -19,14 +21,10 @@ public class RendezVousModel {
     }
 
     public int getId() { return id; }
+    public int getPatientId() { return patientId; }
     public Date getDate() { return date; }
     public Time getHeure() { return heure; }
     public String getMotif() { return motif; }
     public String getStatut() { return statut; }
-
-    public void setDate(Date date) { this.date = date; }
-    public void setHeure(Time heure) { this.heure = heure; }
-    public void setMotif(String motif) { this.motif = motif; }
-    public void setStatut(String statut) { this.statut = statut; }
 }
 

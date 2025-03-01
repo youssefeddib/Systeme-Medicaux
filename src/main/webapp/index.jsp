@@ -114,8 +114,8 @@
         </header>
     <div class="content-wrapper">
         <div class="container">
-            <h2>Bienvenue sur le Système Médical</h2>
-            <p>Veuillez vous connecter ou vous inscrire pour accéder à la gestion des patients, rendez-vous et médecins.</p>
+            <h2>Bienvenue Sur Votre Système Médical</h2>
+            <p>Vous pouvez vous inscrire ou vous connecter à votre compte pour gérer vos rendez-vous médicaux.</p>
             <a href="Conexion.jsp" class="btn btn-primary">Se Connecter</a>
             <a href="Inscription.jsp" class="btn btn-success">S'inscrire</a>
         </div>

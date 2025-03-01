@@ -107,10 +107,10 @@
     <div class="content-wrapper">
         <div class="container">
             <h2>Se Connecter</h2>
-            <form action="loginAction.jsp" method="POST">
+            <form action="Patient.jsp" method="POST">
                 <input type="text" name="username" placeholder="Nom d'utilisateur" required><br>
                 <input type="password" name="password" placeholder="Mot de passe" required><br>
-                <input type="submit" value="Se Connecter">
+                <input  type="submit" value="Se Connecter">
             </form>
             <p><a href="Inscription.jsp" class="btn btn-secondary">S'inscrire</a></p>
         </div>

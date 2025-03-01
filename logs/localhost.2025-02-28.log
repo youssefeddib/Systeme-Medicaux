@@ -1,0 +1,1969 @@
+28-Feb-2025 10:29:21.319 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.Patient resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+40:         <tr>
+41:             <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.Patient resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+40:         <tr>
+41:             <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 10:38:56.939 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.Patient resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             PatientDAO pd = new PatientDAO();
+37:             List<Patient> patients = (List<Patient>) pd.getPatientDAO();
+38:             if (patients != null) {
+39:                 for (Patient p : patients) {
+40:         %>
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             PatientDAO pd = new PatientDAO();
+37:             List<Patient> patients = (List<Patient>) pd.getPatientDAO();
+38:             if (patients != null) {
+39:                 for (Patient p : patients) {
+40:         %>
+
+
+Une erreur s'est produite à la ligne : [39] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+36:             PatientDAO pd = new PatientDAO();
+37:             List<Patient> patients = (List<Patient>) pd.getPatientDAO();
+38:             if (patients != null) {
+39:                 for (Patient p : patients) {
+40:         %>
+41:         <tr>
+42:             <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.Patient resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             PatientDAO pd = new PatientDAO();
+37:             List<Patient> patients = (List<Patient>) pd.getPatientDAO();
+38:             if (patients != null) {
+39:                 for (Patient p : patients) {
+40:         %>
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             PatientDAO pd = new PatientDAO();
+37:             List<Patient> patients = (List<Patient>) pd.getPatientDAO();
+38:             if (patients != null) {
+39:                 for (Patient p : patients) {
+40:         %>
+
+
+Une erreur s'est produite à la ligne : [39] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+36:             PatientDAO pd = new PatientDAO();
+37:             List<Patient> patients = (List<Patient>) pd.getPatientDAO();
+38:             if (patients != null) {
+39:                 for (Patient p : patients) {
+40:         %>
+41:         <tr>
+42:             <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 10:42:04.853 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.Patient resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+40:         <tr>
+41:             <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.Patient resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+40:         <tr>
+41:             <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 10:47:00.227 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+40:         <tr>
+41:             <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:         <%
+36:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:             if (patients != null) {
+38:                 for (Patient p : patients) {
+39:         %>
+40:         <tr>
+41:             <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 10:49:03.789 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:        <%
+36:            List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:        <%
+36:            List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:        <%
+36:            List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+40:                <tr>
+41:                    <td><%= p.getId() %></td>
+
+
+Une erreur s'est produite à la ligne : [52] dans le fichier jsp : [/Patient.jsp]
+p cannot be resolved
+49:        %>
+50: 
+51:                 <form action="PatientServlet" method="POST" onsubmit="return confirm('Supprimer ce patient ?');">
+52:                     <input type="hidden" name="id" value="<%= p.getId() %>">
+53:                     <button type="submit" class="btn btn-delete">Supprimer</button>
+54:                 </form>
+55:             </td>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ".", @ expected after this token
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token "catch", invalid AnnotationName
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+Une erreur s'est produite à la ligne : [200] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [200] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [201] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [201] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [203] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+response cannot be resolved
+
+Une erreur s'est produite à la ligne : [204] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [206] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [209] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [209] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved
+
+Une erreur s'est produite à la ligne : [212] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token "finally", invalid AnnotationTypeDeclarationHeader
+
+Une erreur s'est produite à la ligne : [212] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error, insert "}" to complete AnnotationTypeBody
+
+Une erreur s'est produite à la ligne : [213] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:        <%
+36:            List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:        <%
+36:            List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:        <%
+36:            List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+40:                <tr>
+41:                    <td><%= p.getId() %></td>
+
+
+Une erreur s'est produite à la ligne : [52] dans le fichier jsp : [/Patient.jsp]
+p cannot be resolved
+49:        %>
+50: 
+51:                 <form action="PatientServlet" method="POST" onsubmit="return confirm('Supprimer ce patient ?');">
+52:                     <input type="hidden" name="id" value="<%= p.getId() %>">
+53:                     <button type="submit" class="btn btn-delete">Supprimer</button>
+54:                 </form>
+55:             </td>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ".", @ expected after this token
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token "catch", invalid AnnotationName
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+Une erreur s'est produite à la ligne : [200] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [200] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [201] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [201] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [203] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+response cannot be resolved
+
+Une erreur s'est produite à la ligne : [204] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [206] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [209] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [209] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved
+
+Une erreur s'est produite à la ligne : [212] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token "finally", invalid AnnotationTypeDeclarationHeader
+
+Une erreur s'est produite à la ligne : [212] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error, insert "}" to complete AnnotationTypeBody
+
+Une erreur s'est produite à la ligne : [213] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 10:56:08.987 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:        <%
+36:            List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:        <%
+36:            List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:        <%
+36:            List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+40:                <tr>
+41:                    <td><%= p.getId() %></td>
+
+
+Une erreur s'est produite à la ligne : [52] dans le fichier jsp : [/Patient.jsp]
+p cannot be resolved
+49:        %>
+50: 
+51:                 <form action="PatientServlet" method="POST" onsubmit="return confirm('Supprimer ce patient ?');">
+52:                     <input type="hidden" name="id" value="<%= p.getId() %>">
+53:                     <button type="submit" class="btn btn-delete">Supprimer</button>
+54:                 </form>
+55:             </td>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ".", @ expected after this token
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token "catch", invalid AnnotationName
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+Une erreur s'est produite à la ligne : [200] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [200] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [201] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [201] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [203] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+response cannot be resolved
+
+Une erreur s'est produite à la ligne : [204] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [206] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [209] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [209] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved
+
+Une erreur s'est produite à la ligne : [212] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token "finally", invalid AnnotationTypeDeclarationHeader
+
+Une erreur s'est produite à la ligne : [212] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error, insert "}" to complete AnnotationTypeBody
+
+Une erreur s'est produite à la ligne : [213] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:        <%
+36:            List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+
+
+Une erreur s'est produite à la ligne : [36] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+33:             <th>Action</th>
+34:         </tr>
+35:        <%
+36:            List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+
+
+Une erreur s'est produite à la ligne : [38] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+35:        <%
+36:            List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+37:            if (patients != null) {
+38:                for (Patient p : patients) {
+39:        %>
+40:                <tr>
+41:                    <td><%= p.getId() %></td>
+
+
+Une erreur s'est produite à la ligne : [52] dans le fichier jsp : [/Patient.jsp]
+p cannot be resolved
+49:        %>
+50: 
+51:                 <form action="PatientServlet" method="POST" onsubmit="return confirm('Supprimer ce patient ?');">
+52:                     <input type="hidden" name="id" value="<%= p.getId() %>">
+53:                     <button type="submit" class="btn btn-delete">Supprimer</button>
+54:                 </form>
+55:             </td>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ".", @ expected after this token
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error on token ";", @ expected
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/Patient.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+54:                 </form>
+55:             </td>
+56:         </tr>
+57:         <% }} %>
+58:     </table>
+59: </body>
+60: </html>
+
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token "catch", invalid AnnotationName
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+Une erreur s'est produite à la ligne : [198] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+Une erreur s'est produite à la ligne : [200] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [200] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [201] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [201] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [203] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+response cannot be resolved
+
+Une erreur s'est produite à la ligne : [204] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [206] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+out cannot be resolved
+
+Une erreur s'est produite à la ligne : [209] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Une erreur s'est produite à la ligne : [209] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved
+
+Une erreur s'est produite à la ligne : [212] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error on token "finally", invalid AnnotationTypeDeclarationHeader
+
+Une erreur s'est produite à la ligne : [212] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Syntax error, insert "}" to complete AnnotationTypeBody
+
+Une erreur s'est produite à la ligne : [213] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 10:59:42.489 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. Models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // Récupération de la liste des patients à partir de l'attribut request
+37:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+38: 
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // Récupération de la liste des patients à partir de l'attribut request
+37:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+38: 
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+41:                 // Boucle pour afficher chaque patient
+42:                 for (Patient p : patients) {
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. Models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // Récupération de la liste des patients à partir de l'attribut request
+37:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+38: 
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // Récupération de la liste des patients à partir de l'attribut request
+37:             List<Patient> patients = (List<Patient>) request.getAttribute("patients");
+38: 
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+41:                 // Boucle pour afficher chaque patient
+42:                 for (Patient p : patients) {
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 11:02:10.090 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. Models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // Récupération de la liste des patients à partir de l'attribut request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // Récupération de la liste des patients à partir de l'attribut request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+41:                 // Boucle pour afficher chaque patient
+42:                 for (Patient p : patients) {
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. Models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // Récupération de la liste des patients à partir de l'attribut request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // Récupération de la liste des patients à partir de l'attribut request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+Patient cannot be resolved to a type
+39:             // Vérifier si la liste n'est pas vide
+40:             if (patients != null) {
+41:                 // Boucle pour afficher chaque patient
+42:                 for (Patient p : patients) {
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 12:07:41.915 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. Models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+41:                 // التكرار على قائمة المرضى لعرض كل مريض
+42:                 for (PatientModel p : patients) {  // استخدم PatientModel هنا بدلاً من Patient
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [15] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. Models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+41:                 // التكرار على قائمة المرضى لعرض كل مريض
+42:                 for (PatientModel p : patients) {  // استخدم PatientModel هنا بدلاً من Patient
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 12:23:29.435 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [14] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. com.myapp.models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+List cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+List cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+41:                 // التكرار على قائمة المرضى لعرض كل مريض
+42:                 for (PatientModel p : patients) {  // استخدم PatientModel هنا بدلاً من Patient
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [14] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. com.myapp.models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+List cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+List cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+41:                 // التكرار على قائمة المرضى لعرض كل مريض
+42:                 for (PatientModel p : patients) {  // استخدم PatientModel هنا بدلاً من Patient
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 17:34:07.555 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [jsp] dans le contexte au chemin [/Systemmedicau] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [14] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. com.myapp.models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+List cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+List cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+41:                 // التكرار على قائمة المرضى لعرض كل مريض
+42:                 for (PatientModel p : patients) {  // استخدم PatientModel هنا بدلاً من Patient
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [14] dans le fichier Java généré : [C:\Users\enaa-\Desktop\Systeme-Medicaux\work\Catalina\localhost\Systemmedicau\org\apache\jsp\Patient_jsp.java]
+Only a type can be imported. com.myapp.models.PatientModel resolves to a package
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+List cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+List cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [37] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+34:         </tr>
+35:         <%
+36:             // استرجاع قائمة المرضى من السمة request
+37:             List<PatientModel> patients = (List<PatientModel>) request.getAttribute("patients");
+38: 
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+
+
+Une erreur s'est produite à la ligne : [42] dans le fichier jsp : [/Patient.jsp]
+PatientModel cannot be resolved to a type
+39:             // التحقق من أن القائمة ليست فارغة
+40:             if (patients != null) {
+41:                 // التكرار على قائمة المرضى لعرض كل مريض
+42:                 for (PatientModel p : patients) {  // استخدم PatientModel هنا بدلاً من Patient
+43:         %>
+44:             <tr>
+45:                 <td><%= p.getId() %></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 17:57:14.704 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke "Servlet.service()" pour la servlet [PatientServlet] a généré une exception
+	java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because the return value of "DAO.DatabaseConnection.getConnection()" is null
+		at DAO.PatientDAO.addPatient(PatientDAO.java:67)
+		at Servlet.PatientServlet.doPost(PatientServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 17:57:14.704 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke "Servlet.service()" pour la servlet [PatientServlet] a généré une exception
+	java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because the return value of "DAO.DatabaseConnection.getConnection()" is null
+		at DAO.PatientDAO.addPatient(PatientDAO.java:67)
+		at Servlet.PatientServlet.doPost(PatientServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+28-Feb-2025 18:00:53.881 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke "Servlet.service()" pour la servlet [PatientServlet] a généré une exception
+	java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because the return value of "DAO.DatabaseConnection.getConnection()" is null
+		at DAO.PatientDAO.addPatient(PatientDAO.java:67)
+		at Servlet.PatientServlet.doPost(PatientServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
